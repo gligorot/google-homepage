@@ -50,6 +50,7 @@ a:hover{
   padding: 0 12px;
   border-radius: 2;
   margin-left: 2px;
+  margin-right: -8px;
 }
 .header li{
   display: inline;
@@ -57,27 +58,46 @@ a:hover{
 
 
 /* MAIN */
-/*
+.main{
+  position: relative;
+  top: 135px; /* this and margin bottom downstairs align the center perfectly, at least on vivaldi, update- mozilla too, just the search is different- optimize this */
+}
+
+.logo {
+  display: block;
+  clear: both; /*REVELATIONNNNNN BABY clear both needs to be used with display...probably...in this case i guess */
+  margin-bottom: 25px;
+
+}
+
+.search {
+  width: 584px;
+  height: 44px;
+  /* border-radius: 2px; */
+}
+
+
 input.button {
+  height: 36px;
   border: 1px solid #f2f2f2;
   border-radius: 2px;
   display: inline-block;
+  text-align: center;
   background-color: #f2f2f2;
   margin: 11px 4px;
-  padding: 5px 16px;
+  padding: 0px 16px;
   color: #757575;
   font-weight: bold;
   font-family: arial, sans-serif;
   font-size: 13px;
 }
-
 input.button:hover {
   color: #222;
   border: 1px solid #c6c6c6;
   background-image: gradient (top, #f8f8f8, #f1f1f1)
   box-shadow: 0px 1px 1px rgba(o, o, o, o.1)
 }
-*/
+
 /* FOOTER */
 footer {
   font-size: 13px;
